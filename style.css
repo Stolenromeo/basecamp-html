@@ -1,0 +1,138 @@
+/*CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/*End CSS reset*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1{
+    color: #E9E05F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+nav{
+    width: 100vw;
+    background-color: #707070;
+    color:white;
+    text-align: right;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding-right: 25px;
+    font-size: .75em;
+    font-size: 50%;
+}
+nav p{
+    float: left;
+    margin-left: 1em;
+    font-size: 1.5em;
+    margin-top: -3px;
+    font-weight: 400;
+}
+#landing{
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+    padding: 75px 0;
+
+}
+#section1{
+    display: flex;
+    justify-content: space-around;
+}
+.greenBox{
+    background-color: #A4FFD7;
+    border-radius:10px; 
+    height: 150px;
+    width: 150px;
+    margin: 15px auto;
+}
+.subSections{
+    clear: both;
+    display: flex;
+    justify-content: space-around
+}
+.orangeBox{
+    background-color: #FFC36C;
+    height: 150px;
+    width: 240px;
+    margin: 15px auto;
+}
+#section3{ 
+    margin: 15px auto;
+}
+div p{
+    max-width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+    font-size: 65%;
+}
+div img{
+    max-width: 170px;
+    max-height: 130px;
+}
+footer{
+    width: 100vw;
+    background-color: #3a3a56;
+    height: 50px;
+    margin-top: 30px;
+}
